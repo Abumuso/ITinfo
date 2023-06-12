@@ -1,0 +1,4 @@
+{
+  "port": 3000,
+  "atlasUri": "mongodb+srv://abumuso:mehrim15112018@cluster0.0ynza23.mongodb.net/rentcar?retryWrites=true&w=majority"
+}
