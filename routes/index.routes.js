@@ -1,15 +1,17 @@
 const { Router } = require("express");
 
-const carRouter = require("./car.routes");
-const clientRouter = require("./client.routes");
-const price_typeRouter = require("./price_type.routes");
-const rentRouter = require("./rent.routes");
+const categoryRouter = require("./category.routes");
+const descriptionRouter = require("./description.routes");
+const dictionaryRouter = require("./dictionary.routes");
+const synonimRouter = require("./synonim.routes");
+const authorRouter = require("./author.routes");
 
 const router = Router();
 
-router.use("/api/car", carRouter);
-router.use("/api/client", clientRouter);
-router.use("/api/price_type", price_typeRouter);
-router.use("/api/rent", rentRouter);
+router.use("/api/category", categoryRouter);
+router.use("/api/description", descriptionRouter);
+router.use("/api/dictionary", dictionaryRouter);
+router.use("/api/synonim", synonimRouter);
+router.use("/api/author", authorRouter);
 
 module.exports = router;
