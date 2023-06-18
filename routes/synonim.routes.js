@@ -5,7 +5,7 @@ const {
   getSynonims,
   deleteSynonim,
   updateSynonim,
-} = require("../controllers/synonim.controllersjs");
+} = require("../controllers/synonim.controllers.js");
 
 const router = Router();
 
